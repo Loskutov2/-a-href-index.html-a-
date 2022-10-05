@@ -6,13 +6,13 @@
     padding: 0;
 }
 :root {
-    --bg: #e3e4e8;
+    --bg: #000a2e;
     --bgT: #e3e4e800;
     --fg: #17181c;
-    --focused: #b6cafb;
-    --focusRing: #86a6f9;
+    --focused: #fbb6b6;
+    --focusRing: #f9a186;
     --unchecked: #ffffff;
-    --checked: #255ff4;
+    --checked: #f44825;
     font-size: calc(20px + (30 - 20) * (100vw - 320px) / (1280 - 320));
 }
 body,
@@ -152,8 +152,8 @@ label {
         --bg: #17181c;
         --bgT: #17181c00;
         --fg: #e3e4e8;
-        --focused: #062779;
-        --focusRing: #0936aa;
-        --unchecked: #5c6270;
+        --focused: #790606;
+        --focusRing: #aa0909;
+        --unchecked: #705c5c;
     }
 }
